@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ChartAttrs">
+
+        <attr name="chart_axisThickness" format="dimension"/>
+        <attr name="chart_axisColor" format="reference|color"/>
+        <attr name="chart_axisBorderSpacing" format="dimension"/>
+        <attr name="chart_axisTopSpacing" format="dimension"/>
+
+        <attr name="chart_labels" format="boolean"/>
+        <attr name="chart_labelColor" format = "reference|color"/>
+        <attr name="chart_fontSize" format = "dimension"/>
+        <attr name="chart_typeface" format="string"/>
+
+        <attr name="chart_shadowColor" format="reference|color"/>
+        <attr name="chart_shadowDx" format = "dimension"/>
+        <attr name="chart_shadowDy" format = "dimension"/>
+        <attr name="chart_shadowRadius" format = "dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="BarChartAttrs">
+        <attr name="chart_barSpacing" format="dimension"/>
+        <attr name="chart_setSpacing" format="dimension"/>
+    </declare-styleable>
+</resources>

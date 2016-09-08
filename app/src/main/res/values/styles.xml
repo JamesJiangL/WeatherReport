@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:typeface">serif</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!--<item name="android:windowIsTranslucent">true </item>   &lt;!&ndash;处理启动显示白屏&ndash;&gt;-->
+    </style>
+    <style name="fullScreenTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:typeface">serif</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:typeface">serif</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/clear_white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

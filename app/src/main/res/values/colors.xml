@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_blue">#AA13ccff</color>
+    <color name="clear_white">#00FFFFFF</color>
+    <color name="saffron">#F4B63E</color>
+    <color name="eggplant">#663D4E</color>
+    <color name="sienna">#EB6460</color>
+    <color name="gray">#99DADEE8</color>
+    <color name="light_black">#CC171617</color>
+    <color name="float_background">#55171617</color>
+    <color name="aqi_green">#FF04E303</color>
+    <color name="aqi_yellow">#FFFFFF02</color>
+    <color name="aqi_orange">#FFFF7F02</color>
+    <color name="aqi_red">#FFFE0202</color>
+    <color name="aqi_purple">#FF99024C</color>
+    <color name="aqi_maroon">#FF7E0327</color>
+    <color name="sun_rise">#FFFFFFBD</color>
+    <color name="sun_set">#FFDF5D03</color>
+    <color name="suggestion">#FFFF7DE3</color>
+    <color name="pink">#FFFF99FB</color>
+</resources>

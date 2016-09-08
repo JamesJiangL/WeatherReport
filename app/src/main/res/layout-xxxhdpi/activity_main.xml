@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity_main.MainActivity"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+    <com.james_jiang.weatherreport.Common.FullScreenVideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/weather_player"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/more"
+            android:src="@drawable/more"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/add"
+            android:src="@drawable/add"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/location"
+            android:src="@drawable/use_loc"
+            android:layout_toLeftOf="@+id/add"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/weather_info_view_pager"/>
+</RelativeLayout>
