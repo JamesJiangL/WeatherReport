@@ -36,6 +36,10 @@ public class ScrollListView extends ListView {
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
 //        Log.e(TAG, "dispatchTouchEvent");
+        if(event.getAction() == MotionEvent.ACTION_DOWN)
+            return false;
+        if(event.getAction() == MotionEvent.ACTION_MOVE)
+            return false;
         return super.dispatchTouchEvent(event);
     }
     @Override
